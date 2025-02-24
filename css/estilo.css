@@ -1,0 +1,10 @@
+#conteudo {
+    width: 400px;
+    height: 400px;
+    background-color: #D3D3D3;
+    margin: 0 auto;
+}
+
+.input {
+    color: red;
+}
