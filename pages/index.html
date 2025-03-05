@@ -10,11 +10,16 @@
 </head>
 
 <body>
-    
+
     <div id="conteudo"> <!--PAI-->
-        <input type="email" class="input"> <!--FILHO-->
-        <input type="password" class="input"> <!--FILHO-->
-        <button id="botao-entrar">Entrar</button> <!--FILHO-->
+        <!-- method="get"  - Vai com as informações na URL! -->
+        <!-- method="post" - Vai com as informações escondidas na requisição! -->
+
+        <form action="home.html" method="post">
+            <input type="email" class="input" name="email" required placeholder="Informe o seu e-mail!"> <!--FILHO-->
+            <input type="password" class="input" name="password" required placeholder="Informe a sua senha!"> <!--FILHO-->
+            <button type="submit" id="botao-entrar">Entrar</button> <!--FILHO-->
+        </form>
     </div>
 
 </body>
